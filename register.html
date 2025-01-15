@@ -9,11 +9,18 @@
 <body>
     <h1>Register</h1>
     <form id="registerForm">
-        <select name="country">
-            <option value="USA">USA</option>
-            <option value="India">India</option>
-            <!-- Другие страны -->
-        </select>
+        <select id="country" name="country" required>
+    <option value="RU">Россия</option>
+    <option value="US">США</option>
+    <option value="FR">Франция</option>
+    <option value="DE">Германия</option>
+    <option value="CN">Китай</option>
+    <option value="IN">Индия</option>
+    <option value="JP">Япония</option>
+    <option value="BR">Бразилия</option>
+    <option value="ZA">Южная Африка</option>
+</select>
+
         <input type="tel" name="phone" placeholder="Номер телефона" required>
         <input type="password" name="password" placeholder="пароль" required>
         <button type="submit">Register</button>
